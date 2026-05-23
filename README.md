@@ -1,28 +1,51 @@
-### Ying :rabbit:
+<h1 align="center">Ying 🐇</h1>
 
-**Interests**: Deep Learning, Compilers (e.g., Polyhedral Compilation), HPC, etc.—basically anything related to high-level programming techniques that empower modern LLM algorithm developers. I'm interested in bridging theoretical concepts with practical implementations!
+<p align="center">
+  <em>Working on systems where algorithms, compilers, and hardware are designed as one.</em>
+</p>
 
-**Projects**:
+---
 
-- :rocket: [**TileFusion**](https://github.com/microsoft/TileFusion) is <ins>*an experimental C++ macro kernel template library that raises the abstraction level of CUDA C for tile processing*</ins>. The project aims to offer a higher-level interface that enables algorithm developers to innovate hardware-aware LLM algorithms without getting bogged down by low-level hardware details.
+### Research Interests
 
-- 🧩 [**FractalTensor**](https://github.com/microsoft/FractalTensor) is <ins>*a programming framework*</ins> that introduces the concept of FractalTensor—a list of statically shaped tensors arranged in nested lists, associated with advanced functional array compute operators like map, reduce, and scan, as well as array access operators.
-  
-  This project involves DSL and IR work, inspired by polyhedral-style loop program analysis. After completing the research [paper](https://dl.acm.org/doi/pdf/10.1145/3694715.3695961), I have to plan to resume work on FractalTensor following the TileFusion project, a side project derived from this research.
+I'm broadly interested in deep learning systems, compilers, and hardware-aware programming abstractions. The two questions I've been thinking about recently are:
 
-- 🔍 [**VPTQ**](https://github.com/microsoft/VPTQ) <ins>*Introducing VPTQ – an extreme low-bit quantization algorithm and inference library*</ins> designed for large language models (LLMs). Developed by my talented friend @[YangWang92](https://github.com/YangWang92), this project offers an innovative approach to quantizing LLMs. I'm happy to contribute, both to explore my own research interests and to gain hands-on experience with innovative algorithmic ideas.
+- What happens when the algorithm, software, and hardware layers are designed together, rather than stacked on top of each other?
+- What does it take for large-scale human–LLM collaboration — across people and across agents — to sustain delivery inside a real software stack over the long run?
 
-**📈 Stats**:
 
-<div style="display: flex; flex-direction: row; justify-content: space-between;">
-  <img src="https://github-readme-stats.vercel.app/api?username=lcy-seso&show_icons=true&count_private=true&theme=tokyonight" alt="Anurag's GitHub stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lcy-seso&layout=compact&theme=tokyonight" alt="Top Langs" width="37%" />
-</div>
+Outside of research, I enjoy writing programs and building software systems — I just like making things.
 
-<br>
+---
 
-My [blog posts](https://lcy-seso.github.io/) share ideas interested me in my daily work, capturing the lessons I learn along the way. However, updates are infrequent. [@haruhi55](https://github.com/haruhi55) is also me in disguise! 🐵✨
+### 🚀 Current Projects
 
-📧 **Contact Me**: [lcy.seso@gmail.com](mailto:lcy.seso@gmail.com) | [caoyingseso@126.com](mailto:caoyingseso@126.com)
+Both projects are joint work with friends at [@tile-ai](https://github.com/tile-ai).
 
-Feel free to reach out to me with questions about the projects or to discuss deep learning system, compiler optimization, or any related topics!
+#### 🧠 [**TileRT**](https://github.com/tile-ai/TileRT) — *a take on algorithm · software · hardware co-design.*
+
+An ongoing effort that grew out of our earlier research — exploring what the layers between algorithms and hardware should look like when they are designed together, rather than stacked on top of each other.
+
+#### 🤖 [**TileOPs**](https://github.com/tile-ai/TileOPs) — *operator library development in the agent era.*
+
+An exploration of how far LLM agents can go in autonomously developing an operator library — from writing kernels to testing and iterating on them — with quality good enough to actually ship.
+
+---
+
+### 🧩 Past & Ongoing Work
+
+- 🚀 [**TileFusion**](https://github.com/microsoft/TileFusion) — an experimental C++ macro kernel template library that raises the abstraction level of CUDA C for tile processing, so algorithm developers can innovate on hardware-aware LLM kernels without drowning in low-level details.
+- 🧩 [**FractalTensor**](https://github.com/microsoft/FractalTensor) — a programming framework built around *FractalTensor*: nested, statically-shaped tensor lists with functional array operators (map / reduce / scan). DSL + IR work inspired by polyhedral loop analysis. [[paper]](https://dl.acm.org/doi/pdf/10.1145/3694715.3695961)
+- 🔍 [**VPTQ**](https://github.com/microsoft/VPTQ) — an extreme low-bit quantization algorithm and inference library for LLMs, led by my friend [@YangWang92](https://github.com/YangWang92); I contribute on the systems side.
+
+---
+
+### ✍️ Writing & Elsewhere
+
+I keep a [blog](https://lcy-seso.github.io/) where I jot down ideas that catch my attention in daily work — updates are infrequent but unhurried. [@haruhi55](https://github.com/haruhi55) is also me in disguise. 🐵✨
+
+### 📫 Contact
+
+[lcy.seso@gmail.com](mailto:lcy.seso@gmail.com) · [caoyingseso@126.com](mailto:caoyingseso@126.com)
+
+Feel free to reach out — happy to talk about deep learning systems, compilers, hardware co-design, or LLM-driven engineering.
